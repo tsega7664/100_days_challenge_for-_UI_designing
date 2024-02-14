@@ -1,0 +1,69 @@
+body{
+    background-color: rgb(245, 245, 245);
+}
+.container{
+    background-color: white;
+    border-radius: 5%;
+    margin: auto;
+    width: 80%;
+    padding-bottom: 100px;
+}
+nav a{
+    padding: 20px;
+    color: grey;
+    text-decoration: none;
+    text-transform: capitalize;
+    
+}
+nav ul{
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+}
+nav a:hover{
+    color: rgb(7, 7, 7);
+
+}
+nav{
+   width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: space-around;
+    margin: 0px auto;
+    
+}
+.btn{
+    height: 30px;
+    border-style: none;
+    border-radius:10% ;
+    background-color:rgb(223, 120, 92);
+}
+.btn:hover{
+    background-color:rgb(207, 52, 9);
+
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+.text{
+ text-align: center;
+ padding-right: 250px;
+}
+.side{
+    text-align: left;
+}
+
+.img{
+    display: flex;
+    flex-direction: row;
+    margin: 0px auto;
+    justify-content: space-around;
+}
+.vieo{
+ text-align: center;
+ padding-right: 250px;
+}
+
