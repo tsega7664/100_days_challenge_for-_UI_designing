@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+p{
+    color: gray;
+    font-size: small;
+}
+.container{
+    background-color: lightslategray;
+    display: flex;
+    flex-direction: row;
+
+}
+.part1{
+    background-color: rgb(216, 211, 211);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: 0 auto;
+
+}
+.IMG{
+  
+    margin: 0 auto;
+}
+.imgs{
+    height: 170px;
+    padding: 5px;
+    width: 150px;
+    border-radius: 50px;
+    margin: 2px;
+}
+.categories{
+    display: flex;
+    flex-direction: row;
+}
+.imo{
+    background-color: rgb(201, 197, 197);
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+}
+.ball{
+    background-color: rgb(201, 197, 197);
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    width: 50%;
+}
+.icons nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: rgb(236, 232, 232);
+    border-radius: 20px;
+}

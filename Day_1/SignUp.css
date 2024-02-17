@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    align-items: center;
+}
+h3{
+    color: black;
+    font-size: medium;
+}
+p{
+    font-size:small ;
+}
+.container{
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    border-radius: 30px;
+    align-items: center;
+    padding: 50px;
+    width: 50%;
+    height: 600px;
+    background-color: rgb(236, 235, 235)
+
+}
+.Form{
+    background-color: white;
+    align-items: center;
+    padding: 50px;
+    border-radius: 30px;
+    width: 35%;
+    height: 95%;
+    color: grey;
+
+}
+.Form h2{
+    color: black;
+    text-align: center;
+}
+.Form p,h3{
+    padding: 5px;
+    text-align: center;
+}
+.Form a{
+    text-decoration: none;
+    color: rgb(41, 101, 252);
+}
+.Form label{
+    font-size: small;
+}
+.Form input{
+    border-style: hidden;
+    background-color: rgb(215, 231, 248);
+    border-radius: 10px;
+}
+
+.btn{
+    border-style: none;
+    border-radius: 10px;
+    background-color: rgb(41, 101, 252);
+    width: 200px;
+    color: white;
+    padding: 10px;
+}
+.IMG{
+    height: 95%;
+    width: 65%;
+    background-color: rgb(222, 220, 220);
+    align-items: center;
+    text-align: center;
+    border-radius: 20px;
+    padding: 50px;
+    color: grey;
+
+}
+.IMG img{
+    border-radius: 20px;
+    width: 350px;
+    margin-top: 100px;
+}
+.IMG h1{
+    padding: 5px;
+    color: black;
+    font-size: x-large;
+   
+}
+.IMG h2{
+    font-size: medium;
+}
+@media screen and (max-width : 800px){
+    .container{
+        width: 100%;
+    }
+    .IMG{
+        width: 50%;
+    }
+    .IMG img{
+        width: 200px;
+    }
+}
